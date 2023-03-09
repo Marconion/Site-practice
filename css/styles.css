@@ -1,0 +1,182 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.navbar-brand {
+    /* margin-left: 20px; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+h3 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+p {
+    color: gray;
+}
+
+/* Navigation bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-nav {
+    font-size: 1.5rem;
+    margin-left: auto;
+    align-items: center;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+/* Download buttons */
+
+.download-btn {
+    margin: 5% 0%;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 20%;
+    top: 20%;
+    left: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* Features section */
+
+#features {
+    background-color: white;
+    text-align: center;
+    padding: 7% 15%;
+    position: relative;
+    
+    
+}
+
+.fa-solid {
+    font-size: 3rem;
+    color: #ff746a;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.fa-solid:hover {
+    color: #ffaca6;
+}
+
+/* Testimonials section */
+
+#testimonials {
+
+    text-align: center;
+    color: white;
+    background-color: #ff746a;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ff746a;
+    text-align: center;
+
+    padding-bottom: 2rem;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-indicators {
+    margin-bottom: -3rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Pricing section */
+
+.pricing-desc {
+    text-align: center;
+    margin: 8rem;
+}
+
+.card-section-style {
+    padding: 3% 10% 3%;
+}
+.card-size {
+    margin-bottom: 8%;
+    text-align: center;
+
+}
+.bg-color {
+    background-color: #ffaca6;
+}
+.btn-outline-primary {
+    color: #ffaca6;
+    border-color: #ffaca6;
+}
+.btn-outline-primary:hover{
+    background-color: #ffaca6;
+    border-color: #ffaca6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ffaca6;
+    border-color: #ffaca6;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    border-color: #ffaca6;
+    color: #ffaca6;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+@media (max-width: 990px){
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+    }
+    #title{
+        text-align: center;
+    }
+}
