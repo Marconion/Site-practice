@@ -3,15 +3,7 @@ body {
 }
 
 #title {
-    background-color: #ff4c68;
-    color: white;
-}
-
-.navbar-brand {
-    /* margin-left: 20px; */
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 3rem;
-    font-weight: 900;
+    width: auto;
 }
 
 h1 {
@@ -40,6 +32,12 @@ p {
 
 /* Navigation bar */
 
+.navbar-brand {
+    /* margin-left: 20px; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+}
 .navbar {
     padding-bottom: 4.5rem;
 }
@@ -55,10 +53,25 @@ p {
     padding: 0 18px;
 }
 
+.navbar-toggler {
+    font-size: 2rem;
+}
+
 /* Download buttons */
 
 .download-btn {
     margin: 5% 0%;
+}
+
+/* SECTIONS */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
 }
 
 /* Title Image */
@@ -170,6 +183,30 @@ p {
     padding: 3% 15% 7%;
 }
 
+#cta{
+    margin: auto;
+    text-align: center;
+    padding-top: 4rem;
+
+}
+
+.envelope-style {
+    color: black;
+    font-size: small;
+}
+.envelope-style:hover {
+    color: black;
+}
+
+#footer {
+    text-align: center;    
+    margin: 0 20px;
+}
+
+.footer-icons-format {
+    letter-spacing: 10px;
+}
+
 @media (max-width: 990px){
     .title-image{
         position: static;
@@ -179,4 +216,15 @@ p {
     #title{
         text-align: center;
     }
+    h3 {
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-weight: 900;
+        font-size: 2.5rem;
+    }
+    
+    p {
+        color: gray;
+        font-size: 1.5rem;
+    }
+    
 }
